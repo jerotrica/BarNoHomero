@@ -15,7 +15,7 @@ public class Bar {
 	{
 		if(!this.personas.add(personas));
 		{
-			throw new Exception("No se admite");
+			throw new Exception("No se admiten" + personas.getNombre());
 		}
 	}
 
